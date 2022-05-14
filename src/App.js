@@ -1,10 +1,9 @@
-import { Navigate } from 'react-router-dom'
+import React from 'react'
+import AfiliateRedirect from './redirect';
 
 function App() {
   return (
-    <div>
-      <Navigate to="https://gumroad.com/a/508519539/yoiqe" />
-    </div>
+    <AfiliateRedirect />
   );
 }
 
